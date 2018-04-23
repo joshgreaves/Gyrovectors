@@ -1,0 +1,17 @@
+canvas {
+    border: 1px solid black;
+}
+
+.left-half, .right-half {
+    width: 50%;
+    float: left;
+}
+
+.left-half {
+    text-align: center;
+}
+
+.draw-block {
+    overflow: auto;
+    margin: 2ex;
+}

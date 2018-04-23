@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gyrovectors</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="gyrovectors.js"></script>
+</head>
+<body>
+
+<div id="mobius-addition-container" class="container">
+    <div class="draw-block">
+        <div class="left-half">
+            <canvas id="mobius-addition" width="500" height="500"></canvas>
+        </div>
+        <div class="right-half">
+            <div class="first-coord">
+                <input id="mobius1-x1" type="number" value="0" min="-1" max="1" step="0.1">
+                <input id="mobius1-x2" type="number" value="0" min="-1" max="1" step="0.1">
+            </div>
+            <div class="second-coord">
+                <input id="mobius2-x1" type="number" value="0" min="-1" max="1" step="0.1">
+                <input id="mobius2-x2" type="number" value="0" min="-1" max="1" step="0.1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="mobius-gyration-container" class="container">
+    <div class="draw-block">
+        <div class="left-half">
+            <canvas id="mobius-gyration" width="500" height="500"></canvas>
+        </div>
+        <div class="right-half">
+            <div class="first-coord">
+                <input id="mobius-gyr1-x1" type="number" value="0.2" min="-1" max="1" step="0.1">
+                <input id="mobius-gyr1-x2" type="number" value="0.2" min="-1" max="1" step="0.1">
+            </div>
+            <div class="second-coord">
+                <input id="mobius-gyr2-x1" type="number" value="0.5" min="-1" max="1" step="0.1">
+                <input id="mobius-gyr2-x2" type="number" value="0.5" min="-1" max="1" step="0.1">
+            </div>
+            <div class="third-coord">
+                <input id="mobius-gyr3-x1" type="number" value="1" min="-1" max="1" step="0.1">
+                <input id="mobius-gyr3-x2" type="number" value="0" min="-1" max="1" step="0.1">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
